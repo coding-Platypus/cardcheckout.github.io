@@ -1,0 +1,160 @@
+/**** HTML elements ****/
+
+h2{
+  font-family: "Noto Serif";
+  margin-bottom: 1.5rem;
+}
+
+fieldset{
+  background-color: #3C4048;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 3%;
+}
+
+label{
+  display: block;
+}
+
+
+/*** Container tag ***/
+.container{
+  padding: 50px;
+  width: 50%;
+}
+
+/*** Heading image ***/
+.img-adjust{
+  margin-left: 13.2rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+/*** form information ***/
+
+
+.form-group{
+  font-family: "Ubuntu";
+  color: #EAEAEA;
+  font-size: 0.8rem;
+}
+
+.cvv-adjust{
+  display: inline-block;
+  width: 10rem;
+  margin-left: 7rem;
+}
+
+
+.form-adjust{
+  display: inline-block;
+  width: 6rem;
+  margin-right: 20px;
+
+}
+
+.date-adjust{
+  display: inline-block;
+
+}
+
+/*** Submit Button ***/
+
+.btn-adjust{
+  font-family: "Ubuntu";
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+.btn-color{
+  background-color: #2146C7;
+  color: #fff;
+}
+.btn-color:hover{
+  background-color: #4649FF;
+  border-width: 1px;
+  border-color: #000;
+}
+
+/*** for Ipad/tab ***/
+
+@media (max-width: 1024px){
+
+  /*** Element tag ***/
+  h2{
+    font-size: 2.5rem;
+  }
+
+  /*** Container tag ***/
+  .container{
+    width: 90%;
+    padding: 2rem;
+    margin-left: 0.7rem;
+    margin-top: 5rem;
+  }
+
+  /*** heading image ***/
+  .img-adjust{
+    margin-left: 6.7rem;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  /*** form information ***/
+  .form-group{
+    font-size: 1rem;
+  }
+}
+
+/*** for Ipad mini ***/
+@media (max-width: 770px){
+  /*** Heading-image ***/
+  .img-adjust{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: 5.2rem;
+  }
+}
+
+/*** for Smartphones ***/
+@media (max-width: 720px) {
+
+/***HTML Tags ***/
+
+h2{
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+/*** Container-tags ***/
+.container{
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 0.5rem;
+  padding-right: 0rem;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 2rem;
+}
+
+/*** Heading Image ***/
+.img-adjust{
+  height: 0;
+  width: 0;
+}
+
+/*** form ***/
+.form-adjust{
+  width: 7rem;
+  margin-right: 0.5rem;
+}
+.cvv-adjust{
+  margin-left: 0;
+}
+.form-control{
+  font-size: 0.9rem;
+}
+.form-margin-adjust{
+  margin-left: 1rem;;
+}
+}
